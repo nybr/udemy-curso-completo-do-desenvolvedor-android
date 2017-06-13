@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">GasolineOrEthanol</string>
+    <string name="app_name">Gasoline or Ethanol</string>
+    <string name="ethanol_price">Ethanol Price</string>
+    <string name="gasoline_price">Gasoline Price</string>
+    <string name="calculate">Calculate</string>
 </resources>
