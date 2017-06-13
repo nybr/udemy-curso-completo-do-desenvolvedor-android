@@ -28,29 +28,36 @@
         android:layout_marginTop="35dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:text="Enter the age of your dog to discover his age in human years"
+        android:text="Enter the age of your dog to discover his age in human years."
         android:textAlignment="center"
-        android:textColor="?attr/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:id="@+id/idadeId"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/background_light"
         android:ems="10"
         android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="normal"
+        android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCalcularId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -59,20 +66,21 @@
         android:text="@string/descobrir_idade"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/idadeId" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/resultadoIdadeId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcularId"
         app:layout_constraintVertical_bias="0.282" />
 
 </android.support.constraint.ConstraintLayout>
