@@ -17,10 +17,13 @@
         </activity>
         <activity
             android:name=".EmpresaActivity"
-            android:label="@string/empresa_detalhes"/>
+            android:label="@string/empresa_detalhes" />
         <activity
             android:name=".ServicosActivity"
             android:label="@string/servicos_detalhes" />
+        <activity
+            android:name=".ClientesActivity"
+            android:label="@string/clientes_detalhes" />
     </application>
 
 </manifest>
