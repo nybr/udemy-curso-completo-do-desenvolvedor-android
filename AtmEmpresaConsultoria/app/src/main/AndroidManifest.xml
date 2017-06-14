@@ -24,6 +24,9 @@
         <activity
             android:name=".ClientesActivity"
             android:label="@string/clientes_detalhes" />
+        <activity
+            android:name=".ContatoActivity"
+            android:label="@string/contatos_detalhes" />
     </application>
 
 </manifest>
