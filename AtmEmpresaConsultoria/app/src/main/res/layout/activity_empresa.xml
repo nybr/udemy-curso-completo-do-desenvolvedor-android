@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/detalhe_empresa"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/empresa_detalhes"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/imageView2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_padrao"
+                android:text="O deputado cassado e ex-presidente da Câmara Cunha Golpista (PMDB-RJ) chegou à sede da Polícia Federal (PF), em Curitiba, por volta das 10h desta quarta-feira (14).
+            No local, ele prestará depoimento sobre o inquérito que investiga o presidente da República Temer Golpista (PMDB). O depoimento estava marcado para as 11h.
+            O advogado Eduardo Rios, que defende o político, disse que o cliente tentará responder  as perguntas enviadas pela PF ao presidente. O objetivo das perguntas da PF é esclarecer questões relacionadas à delação da JBS. encaminhadas ao Golpista, as que dizem respeito a ele [Cunha] , afirmou o advogado à imprensa antes do início do depoimento.
+            Condenado pela Operação Lava Jato a 15 anos de reclusão, Cunha Golpista está detido no Complexo Médico-Penal em Pinhais, na Região Metropolitana de Curitiba. Ele foi preso em outubro de 2016. Na terça (13), a defesa de Cunha Golpista pediu ao Supremo Tribunal Federal (STF) para ter acesso às gravações que integram a investigação sobre Temer Golpista antes de depor à Polícia Federal sobre o caso.
+            Cunha Golpista, porém, quer ter acesso ao material da investigação com 48 horas de antecedência para poder responder às perguntas com ampla defesa.Desse modo, o peemedebista pediu ao STF que também determine à PF a readequação da pauta do depoimento.
+
+            Delações da JBS
+
+            Em março deste ano, Temer Golpista foi gravado pelo dono da JBS, Joesley Batista, numa conversa em que, segundo a Procuradoria Geral da República (PGR), deu aval para pagamentos a Cunha com o objetivo de convencer o ex-deputado a não fechar acordo de delação premiada.
+            O presidente nega as acusações, diz que não teme delações e afirma que jamais atuou para beneficiar a JBS no governo."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
