@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="backgroud_cara_coroa">#61bd9c</color>
+    <color name="cor_back">#84c87c</color>
+    <color name="back_cor">#61bd8c</color>
+    <color name="back2">#61bd8c</color>
 </resources>
